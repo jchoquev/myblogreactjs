@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
+import RoutesPage from './routes/routes';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div className="App">
+    <RoutesPage/>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

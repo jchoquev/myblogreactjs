@@ -1,0 +1,39 @@
+{
+    "menu":[
+        {  
+            "_Id":"asdasda6sd4as2",
+            "Name":"es",
+            "ListNav":[
+                {"_Id":"abcrsd665sdasd1","Name":"Quien soy","Url":"about"},
+                {"_Id":"abcrsd665sdasd2","Name":"Mis Habilidades","Url":"myskills"},
+                {"_Id":"abcrsd665sdasd3","Name":"Mis Trabajos","Url":"works"},
+                {
+                    "_Id":"abcrsd665sdasd4",
+                    "Name":"Contactame",
+                    "Url":"contact",
+                    "form":{
+                        "input":[
+                            {"type":"text","Name":"Name","NameInp":"Name","SpaceNumCol":6},
+                            {"type":"email","Name":"Email","NameInp":"Email","SpaceNumCol":6},
+                            {"type":"text","Name":"Subject","NameInp":"Subject","SpaceNumCol":12},
+                            {"label":"textarea","Name":"Message","NameInp":"Message","SpaceNumCol":12}
+                        ],
+                        "button":{"Name":"Send Message!"}
+                    }
+                },
+                {"_Id":"abcrsd665sdasd5","Name":"Blog","Url":"posts"}
+            ]
+        },
+        {  
+            "_Id":"asdasda6sd4as2",
+            "Name":"en",
+            "ListNav":[
+                {"_Id":"abcrsd665sdasd1","Name":"About","Url":"about"},
+                {"_Id":"abcrsd665sdasd2","Name":"My Skills","Url":"myskills"},
+                {"_Id":"abcrsd665sdasd3","Name":"Works","Url":"works"},
+                {"_Id":"abcrsd665sdasd4","Name":"Contact","Url":"contact"},
+                {"_Id":"abcrsd665sdasd5","Name":"Posts","Url":"posts"}
+            ]
+        }
+    ]
+}
